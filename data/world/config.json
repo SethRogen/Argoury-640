@@ -1,0 +1,26 @@
+{
+  "loader_version": 1,
+  "client_version": 1,
+  "max_nio_threads": 8,
+  "logging_config_file": "%WORK_DIR%/logging.ini",
+  "script_dir": "src/scripts",
+  "link": {
+    "host": "127.0.0.1",
+    "port": 4490,
+    "pass": "rt5d_default",
+    "channels": 2
+  },
+  "lobby_ports": [43594, 53594],
+  "game_port_offset": 40000,
+  "game_port_offset2": 50000,
+  "server_address": "127.0.0.1",
+  "sql": {
+    "driver": "com.mysql.jdbc.Driver",
+    "host": "jdbc:mysql://127.0.0.1",
+    "user": "root",
+    "pass": "",
+    "reconnect": true,
+    "max_reconnects": 1,
+    "database": "argoury"
+  }
+}
