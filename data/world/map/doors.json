@@ -1,0 +1,501 @@
+[
+  {
+    "defaultId": 36846,
+    "changedId": 36848,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+  {
+    "defaultId": 45476,
+    "changedId": 45477,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+  {
+    "defaultId": 1530,
+    "changedId": 1531,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+  {
+    "defaultId": 1533,
+    "changedId": 1534,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 1517,
+    "changedId": 1516,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 1520,
+    "specific": []
+  },
+  {
+    "defaultId": 1520,
+    "changedId": 1519,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 1517,
+    "specific": []
+  },
+  {
+    "defaultId": 1520,
+    "changedId": 1519,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 1517,
+    "specific": []
+  },
+  {
+    "defaultId": 1517,
+    "changedId": 1516,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 1520,
+    "specific": []
+  },
+
+  {
+    "defaultId": 17089,
+    "changedId": 17090,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 1531,
+    "changedId": 1530,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 46251,
+    "changedId": 46252,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 8695,
+    "changedId": 8696,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 40108,
+    "changedId": 40109,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 59,
+    "changedId": 40193,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": true,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 24375,
+    "changedId": 24376,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 24381,
+    "changedId": 24383,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 26081,
+    "changedId": 26083,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": true,
+    "dirType": 1,
+    "tiedId": 26082,
+    "specific": []
+  },
+  {
+    "defaultId": 26082,
+    "changedId": 26084,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": true,
+    "dirType": 0,
+    "tiedId": 26081,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25638,
+    "changedId": 25639,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 25640,
+    "specific": []
+  },
+  {
+    "defaultId": 25640,
+    "changedId": 25641,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 25638,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25799,
+    "changedId": 25800,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25819,
+    "changedId": 25820,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25642,
+    "changedId": 25643,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25813,
+    "changedId": 25815,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 25814,
+    "specific": []
+  },
+  {
+    "defaultId": 25814,
+    "changedId": 25816,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 25813,
+    "specific": []
+  },
+
+  {
+    "defaultId": 25825,
+    "changedId": 25826,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 25827,
+    "specific": []
+  },
+  {
+    "defaultId": 25827,
+    "changedId": 25828,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 25825,
+    "specific": []
+  },
+
+  {
+    "defaultId": 26114,
+    "changedId": 26116,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": true,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 48961,
+    "changedId": 48962,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 34808,
+    "changedId": 34809,
+    "defaultState": "opened",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 34811,
+    "changedId": 34813,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 34807,
+    "changedId": 34808,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 2546,
+    "changedId": 2547,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 2548,
+    "specific": []
+  },
+  {
+    "defaultId": 2548,
+    "changedId": 2549,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 2546,
+    "specific": []
+  },
+
+  {
+    "defaultId": 34812,
+    "changedId": 34813,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 2557,
+    "changedId": 2557,
+    "defaultState": "closed",
+    "lockPick": true,
+    "instantClose": true,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+  {
+    "defaultId": 2558,
+    "changedId": 2558,
+    "defaultState": "closed",
+    "lockPick": true,
+    "instantClose": true,
+    "dirType": 0,
+    "tiedId": -1,
+    "specific": []
+  },
+
+  {
+    "defaultId": 31827,
+    "changedId": 31824,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 31825,
+    "specific": [
+      {
+        "tile": { "x": 3040, "y": 10307, "z": 0 },
+        "changedDir": 3,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  },
+  {
+    "defaultId": 31825,
+    "changedId": 31826,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 31827,
+    "specific": [
+      {
+        "tile": { "x": 3040, "y": 10308, "z": 0 },
+        "changedDir": 1,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  },
+
+  {
+    "defaultId": 31827,
+    "changedId": 31824,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 31825,
+    "specific": [
+      {
+        "tile": { "x": 3022, "y": 10311, "z": 0 },
+        "changedDir": 3,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  },
+  {
+    "defaultId": 31825,
+    "changedId": 31826,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 31827,
+    "specific": [
+      {
+        "tile": { "x": 3022, "y": 10312, "z": 0 },
+        "changedDir": 1,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  },
+
+  {
+    "defaultId": 31830,
+    "changedId": 31831,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 1,
+    "tiedId": 31832,
+    "specific": [
+      {
+        "tile": { "x": 3044, "y": 10342, "z": 0 },
+        "changedDir": 1,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  },
+  {
+    "defaultId": 31832,
+    "changedId": 31830,
+    "defaultState": "closed",
+    "lockPick": false,
+    "instantClose": false,
+    "dirType": 0,
+    "tiedId": 31830,
+    "specific": [
+      {
+        "tile": { "x": 3044, "y": 10341, "z": 0 },
+        "changedDir": 3,
+        "xOffset": 0,
+        "yOffset": 0
+      }
+    ]
+  }
+]

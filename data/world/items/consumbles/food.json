@@ -1,0 +1,41 @@
+{
+  "Shark": {
+    "name": "Shark",
+    "foodIds": [15272],
+    "restore": 200,
+    "container": false
+  },
+  "Rocktail": {
+    "name": "Rocktail",
+    "foodIds": [15272],
+    "restore": 230,
+    "constitutionBoost": 10,
+    "container": false
+  },
+  "Cake": {
+    "name": "Cake",
+    "foodIds": [1895, 1893, 1891],
+    "restore": 40,
+    "container": false
+  },
+  "Anchovy pizza": {
+    "name": "Anchovy pizza",
+    "foodIds": [2299, 2297],
+    "restore": 90,
+    "container": false
+  },
+  "Redberry pie": {
+    "name": "Redberry pie",
+    "foodIds": [2313, 2333, 2325],
+    "restore": 90,
+    "container": true
+  },
+  "Cavefish": {
+    "name": "Cavefish",
+    "foodIds": [15266],
+    "restore": 200,
+    "affectedLevelIds": [0, 1, 2],
+    "baseBoosts": [2, 2, 2],
+    "container": false
+  }
+}

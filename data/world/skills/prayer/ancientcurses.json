@@ -1,0 +1,201 @@
+{
+  "0": {
+    "id": 0,
+    "drainRate": 18,
+    "protectItem": true,
+    "requiredLevel": 50,
+    "curseType": "OTHER",
+    "useAnimation": true,
+    "animationId": 12567,
+    "useGraphic": true,
+    "graphicId": 2213
+  },
+  "1": {
+    "id": 1,
+    "drainRate": 2.4,
+    "requiredLevel": 50,
+    "drainEnemyAttack": true,
+    "drainEnemyAttackPercentage": 0.10,
+    "drainEAttackPercentageOverTime": 0.20,
+    "drainEnemyStrength": true,
+    "drainEnemyStrengthPercentage": 0.10,
+    "drainEStrengthPercentageOverTime": 0.20,
+    "drainEnemyDefence": true,
+    "drainEnemyDefencePercentage": 0.10,
+    "drainEDefencePercentageOverTime": 0.20,
+    "curseType": "SAP"
+  },
+  "2": {
+    "id": 2,
+    "drainRate": 2.4,
+    "requiredLevel": 52,
+    "drainEnemyRanged": true,
+    "drainEnemyRangedPercentage": 0.10,
+    "drainERangedPercentageOverTime": 0.20,
+    "curseType": "SAP"
+  },
+  "3": {
+    "id": 3,
+    "drainRate": 2.4,
+    "requiredLevel": 54,
+    "drainEnemyMagic": true,
+    "drainEnemyMagicPercentage": 0.10,
+    "drainEMagicPercentageOverTime": 0.20,
+    "curseType": "SAP"
+  },
+  "4": {
+    "id": 4,
+    "drainRate": 2.4,
+    "requiredLevel": 56,
+    "drainEnemySpecial": true,
+    "drainEnemySpecialPercentage": 0.10,
+    "curseType": "SAP"
+  },
+  "5": {
+    "id": 5,
+    "drainRate": 18,
+    "requiredLevel": 59,
+    "berserker": true,
+    "curseType": "OTHER",
+    "useAnimation": true,
+    "animationId": 12589,
+    "useGraphic": true,
+    "graphicId": 2266
+  },
+  "6": {
+    "id": 6,
+    "drainRate": 3,
+    "requiredLevel": 62,
+    "overheadId": 15,
+    "deflectSummoning": true,
+    "curseType": "OVERHEAD"
+  },
+  "7": {
+    "id": 7,
+    "drainRate": 3,
+    "requiredLevel": 65,
+    "overheadId": 13,
+    "deflectMagic": true,
+    "curseType": "OVERHEAD"
+  },
+  "8": {
+    "id": 8,
+    "drainRate": 3,
+    "requiredLevel": 68,
+    "overheadId": 14,
+    "deflectRanged": true,
+    "curseType": "OVERHEAD"
+  },
+  "9": {
+    "id": 9,
+    "drainRate": 3,
+    "requiredLevel": 71,
+    "overheadId": 12,
+    "deflectMelee": true,
+    "curseType": "OVERHEAD"
+  },
+  "10": {
+    "id": 10,
+    "drainRate": 3.6,
+    "requiredLevel": 74,
+    "attackMultiplier": 0.05,
+    "attackMultiplierOverTime": 0.10,
+    "drainEnemyAttack": true,
+    "drainEnemyAttackPercentage": 0.10,
+    "drainEAttackPercentageOverTime": 0.25,
+    "curseType": "LEECH"
+  },
+  "11": {
+    "id": 11,
+    "drainRate": 3.6,
+    "requiredLevel": 76,
+    "rangedMultiplier": 0.05,
+    "rangedMultiplierOverTime": 0.10,
+    "drainEnemyRanged": true,
+    "drainEnemyRangedPercentage": 0.10,
+    "drainERangedPercentageOverTime": 0.25,
+    "curseType": "LEECH"
+  },
+  "12": {
+    "id": 12,
+    "drainRate": 3.6,
+    "requiredLevel": 78,
+    "magicMultiplier": 0.05,
+    "magicMultiplierOverTime": 0.10,
+    "drainEnemyMagic": true,
+    "drainEnemyMagicPercentage": 0.10,
+    "drainEMagicPercentageOverTime": 0.25,
+    "curseType": "LEECH"
+  },
+  "13": {
+    "id": 13,
+    "drainRate": 3.6,
+    "requiredLevel": 80,
+    "defenceMultiplier": 0.05,
+    "defenceMultiplierOverTime": 0.10,
+    "drainEnemyDefence": true,
+    "drainEnemyDefencePercentage": 0.10,
+    "drainEDefencePercentageOverTime": 0.25,
+    "curseType": "LEECH"
+  },
+  "14": {
+    "id": 14,
+    "drainRate": 3.6,
+    "requiredLevel": 82,
+    "strengthMultiplier": 0.05,
+    "strengthMultiplierOverTime": 0.10,
+    "drainEnemyStrength": true,
+    "drainEnemySpecialPercentage": 0.10,
+    "drainEStrengthPercentageOverTime": 0.25,
+    "curseType": "LEECH"
+  },
+  "15": {
+    "id": 15,
+    "drainRate": 3.6,
+    "requiredLevel": 84,
+    "drainEnergy": true,
+    "boostEnergy": true,
+    "curseType": "LEECH"
+  },
+  "16": {
+    "id": 16,
+    "drainRate": 3.6,
+    "requiredLevel": 86,
+    "drainEnemySpecial": true,
+    "drainEnemySpecialPercentage": 0.10,
+    "boostSpecial": true,
+    "curseType": "LEECH"
+  },
+  "17": {
+    "id": 17,
+    "drainRate": 12,
+    "requiredLevel": 89,
+    "wrath": true,
+    "overheadId": 19,
+    "curseType": "OVERHEAD"
+  },
+  "18": {
+    "id": 18,
+    "drainRate": 2,
+    "requiredLevel": 92,
+    "soulSplit": true,
+    "drainEnemyPrayer": true,
+    "drainEnemyPrayerRate": 50,
+    "curseType": "OVERHEAD",
+    "overheadId": 20
+  },
+  "19": {
+    "id": 19,
+    "drainRate": 2,
+    "requiredLevel": 95,
+    "turmoil": true,
+    "attackMultiplier": 0.15,
+    "defenceMultiplier": 0.15,
+    "strengthMultiplier": 0.23,
+    "curseType": "SUPER",
+    "useAnimation": true,
+    "animationId": 12565,
+    "useGraphic": true,
+    "graphicId": 2226
+  }
+}
