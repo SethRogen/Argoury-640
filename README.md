@@ -1,7 +1,7 @@
 <p align="center">
    <img src="https://i.imgur.com/mU3ygty.png">
 </p>
-Argoury 640 is a dedicated Runescape private server enthusiast committed to creating the most exceptional game remake possible. This is a big project and for fun, anyone is more than welcome to contribute to this source code. I will do my fair share to try to keep up with updating this. I have currently cleaned up the source files a little bit since the original download and removed some useless stuff that Original Ziotic had there but wasn't complete or needed for my project. I hope to see this grow a public community source and goal is to make this as stable and 1:1 to runescape as possible
+Argoury 640 is a dedicated Runescape private server enthusiast committed to creating the most exceptional game remake possible. This is a big project and for fun, anyone is more than welcome to contribute to this source code. I will do my fair share to try to keep up with updating this. I hope to see this grow a public community source and goal is to make this as stable and 1:1 to runescape as possible
 
 # Getting Started
 * Download cache and extract it to /data/world/cachers2cache if rs2cache folder is not there make sure to make it.
