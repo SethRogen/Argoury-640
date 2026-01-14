@@ -1,0 +1,252 @@
+{
+  "0": {
+    "id": 0,
+    "drainRate": 12,
+    "requiredLevel": 1,
+    "defenceMultiplier": 0.05,
+    "prayerType": "SKIN",
+    "configMaskValue": 1
+  },
+  "1": {
+    "id": 1,
+    "drainRate": 12,
+    "requiredLevel": 4,
+    "strengthMultiplier": 0.05,
+    "prayerType": "STRENGTH",
+    "configMaskValue": 2
+  },
+  "2": {
+    "id": 2,
+    "drainRate": 12,
+    "requiredLevel": 7,
+    "attackMultiplier": 0.05,
+    "prayerType": "REFLEXES",
+    "configMaskValue": 4
+  },
+  "3": {
+    "id": 3,
+    "drainRate": 12,
+    "requiredLevel": 8,
+    "rangedMultiplier": 0.05,
+    "prayerType": "EYE",
+    "configMaskValue": 262144
+  },
+  "4": {
+    "id": 4,
+    "drainRate": 12,
+    "requiredLevel": 9,
+    "magicMultiplier": 0.05,
+    "prayerType": "MYSTIC",
+    "configMaskValue": 524288
+  },
+  "5": {
+    "id": 5,
+    "drainRate": 6,
+    "requiredLevel": 10,
+    "defenceMultiplier": 0.10,
+    "prayerType": "SKIN",
+    "configMaskValue": 8
+  },
+  "6": {
+    "id": 6,
+    "drainRate": 6,
+    "requiredLevel": 13,
+    "strengthMultiplier": 0.10,
+    "prayerType": "STRENGTH",
+    "configMaskValue": 16
+  },
+  "7": {
+    "id": 7,
+    "drainRate": 6,
+    "requiredLevel": 16,
+    "attackMultiplier": 0.10,
+    "prayerType": "REFLEXES",
+    "configMaskValue": 32
+  },
+  "8": {
+    "id": 8,
+    "drainRate": 36,
+    "requiredLevel": 19,
+    "prayerType": "OTHER",
+    "configMaskValue": 64
+  },
+  "9": {
+    "id": 9,
+    "drainRate": 18,
+    "requiredLevel": 22,
+    "prayerType": "OTHER",
+    "configMaskValue": 128
+  },
+  "10": {
+    "id": 10,
+    "drainRate": 18,
+    "requiredLevel": 25,
+    "protectItem": true,
+    "prayerType": "OTHER",
+    "configMaskValue": 256
+  },
+  "11": {
+    "id": 11,
+    "drainRate": 6,
+    "requiredLevel": 26,
+    "rangedMultiplier": 0.10,
+    "prayerType": "EYE",
+    "configMaskValue": 1048576
+  },
+  "12": {
+    "id": 12,
+    "drainRate": 6,
+    "requiredLevel": 27,
+    "magicMultiplier": 0.10,
+    "prayerType": "MYSTIC",
+    "configMaskValue": 2097152
+  },
+  "13": {
+    "id": 13,
+    "drainRate": 3,
+    "requiredLevel": 28,
+    "defenceMultiplier": 0.15,
+    "prayerType": "SKIN",
+    "configMaskValue": 512
+  },
+  "14": {
+    "id": 14,
+    "drainRate": 3,
+    "requiredLevel": 31,
+    "strengthMultiplier": 0.15,
+    "prayerType": "STRENGTH",
+    "configMaskValue": 1024
+  },
+  "15": {
+    "id": 15,
+    "drainRate": 3,
+    "requiredLevel": 34,
+    "attackMultiplier": 0.15,
+    "prayerType": "REFLEXES",
+    "configMaskValue": 2048
+  },
+  "16": {
+    "id": 16,
+    "drainRate": 3,
+    "requiredLevel": 35,
+    "overheadId": -1,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 16777216
+  },
+  "17": {
+    "id": 17,
+    "drainRate": 3,
+    "requiredLevel": 37,
+    "overheadId": 2,
+    "protectFromMagic": true,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 4096
+  },
+  "18": {
+    "id": 18,
+    "drainRate": 3,
+    "requiredLevel": 40,
+    "overheadId": 1,
+    "protectFromRanged": true,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 8192
+  },
+  "19": {
+    "id": 19,
+    "drainRate": 3,
+    "requiredLevel": 43,
+    "overheadId": 0,
+    "protectFromMelee": true,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 16384
+  },
+  "20": {
+    "id": 20,
+    "drainRate": 3,
+    "requiredLevel": 44,
+    "rangedMultiplier": 0.15,
+    "prayerType": "EYE",
+    "configMaskValue": 4194304
+  },
+  "21": {
+    "id": 21,
+    "drainRate": 3,
+    "requiredLevel": 45,
+    "magicMultiplier": 0.15,
+    "prayerType": "MYSTIC",
+    "configMaskValue": 8388608
+  },
+  "22": {
+    "id": 22,
+    "drainRate": 12,
+    "requiredLevel": 46,
+    "retribution": true,
+    "overheadId": 3,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 32768
+  },
+  "23": {
+    "id": 23,
+    "drainRate": 6,
+    "requiredLevel": 49,
+    "redemption": true,
+    "overheadId": 5,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 65536
+  },
+  "24": {
+    "id": 24,
+    "drainRate": 1.8,
+    "requiredLevel": 52,
+    "smite": true,
+    "overheadId": 4,
+    "prayerType": "OVERHEAD",
+    "configMaskValue": 131072
+  },
+  "25": {
+    "id": 25,
+    "drainRate": 1.8,
+    "requiredLevel": 60,
+    "attackMultiplier": 0.15,
+    "strengthMultiplier": 0.18,
+    "defenceMultiplier": 0.20,
+    "prayerType": "SUPER",
+    "configMaskValue": 33554432
+  },
+  "26": {
+    "id": 26,
+    "drainRate": 2.4,
+    "requiredLevel": 65,
+    "rapidRenewal": true,
+    "prayerType": "OTHER",
+    "configMaskValue": 134217728
+  },
+  "27": {
+    "id": 27,
+    "drainRate": 1.5,
+    "requiredLevel": 70,
+    "attackMultiplier": 0.20,
+    "strengthMultiplier": 0.23,
+    "defenceMultiplier": 0.25,
+    "prayerType": "SUPER",
+    "configMaskValue": 67108864
+  },
+  "28": {
+    "id": 28,
+    "drainRate": 2,
+    "requiredLevel": 74,
+    "rangedMultiplier": 0.20,
+    "defenceMultiplier": 0.25,
+    "prayerType": "EYE",
+    "configMaskValue": 536870912
+  },
+  "29": {
+    "id": 29,
+    "drainRate": 1.8,
+    "requiredLevel": 76,
+    "magicMultiplier": 0.20,
+    "defenceMultiplier": 0.25,
+    "prayerType": "MYSTIC",
+    "configMaskValue": 268435456
+  }
+}

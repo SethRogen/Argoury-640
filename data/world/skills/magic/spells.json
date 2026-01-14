@@ -1,0 +1,35 @@
+{
+  "192": {
+    "80": {
+      "name": "Fire Wave",
+      "buttonId": 80,
+      "interfaceId": 192,
+      "requiredLevel": 75,
+      "elementType": "FIRE",
+      "combatType": "WAVE",
+      "groupType": "COMBAT",
+      "startAnim": 14223,
+      "startAnimDelay": 0,
+      "startGfx": 2728,
+      "startGfxHeight": 0,
+      "startGfxDelay": 0,
+      "projectileId": 2733,
+      "startHeight": 21,
+      "middleHeight": 10,
+      "endHeight": 35,
+      "projDelay": 43,
+      "projSpeed": 45,
+      "endGfx": 2740,
+      "endGfxHeight": 125,
+      "freezeTime": -1,
+      "multi": false,
+      "accuracy": 1.2,
+      "xp": 42.5,
+      "requiredRunes": [
+        { "id": 554, "amount": 7 },
+        { "id": 556, "amount": 5 },
+        { "id": 565, "amount": 1 }
+      ]
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "1": {
+    "name": "Test",
+    "sampleStock": [
+      { "id": 4153, "amount": 1 }
+    ],
+    "stock": [
+      { "id": 4151, "amount": 10 }
+    ],
+    "acceptedItems": []
+  },
+
+  "2": {
+    "name": "Armour Store",
+    "sampleStock": [
+      { "id": 1115, "amount": 1 },
+      { "id": 1125, "amount": 1 }
+    ],
+    "stock": [
+      { "id": 1127, "amount": 10 },
+      { "id": 1163, "amount": 5 }
+    ],
+    "acceptedItems": [ 1115, 1127 ]  // optional
+  }
+}

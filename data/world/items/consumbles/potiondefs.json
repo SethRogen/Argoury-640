@@ -1,0 +1,574 @@
+{
+    "Vial": {
+        "doseIds": [
+            229,
+            229,
+            229,
+            229,
+            229
+        ],
+        "name": "Vial"
+    },
+    "Restore potion": {
+        "doseIds": [
+            229,
+            131,
+            129,
+            127,
+            2430
+        ],
+        "name": "Restore potion",
+        "affectedLevelIds": [
+            0,
+            1,
+            2,
+            4,
+            6
+        ],
+        "baseBoosts": [
+            10,
+            10,
+            10,
+            10,
+            10
+        ],
+        "multiplyFactors": [
+            0.3,
+            0.3,
+            0.3,
+            0.3,
+            0.3
+        ]
+    },
+    "Prayer potion": {
+        "doseIds": [
+            229,
+            143,
+            141,
+            139,
+            2434
+        ],
+        "name": "Prayer potion",
+        "affectedLevelIds": [
+            5
+        ],
+        "baseBoosts": [
+            7
+        ],
+        "multiplyFactors": [
+            0.25
+        ]
+    },
+    "Super attack": {
+        "doseIds": [
+            229,
+            149,
+            147,
+            145,
+            2436
+        ],
+        "name": "Super attack",
+        "affectedLevelIds": [
+            0
+        ],
+        "baseBoosts": [
+            5
+        ],
+        "multiplyFactors": [
+            0.15
+        ]
+    },
+    "Super strength": {
+        "doseIds": [
+            229,
+            161,
+            159,
+            157,
+            2440
+        ],
+        "name": "Super strength",
+        "affectedLevelIds": [
+            2
+        ],
+        "baseBoosts": [
+            5
+        ],
+        "multiplyFactors": [
+            0.15
+        ]
+    },
+    "Super defence": {
+        "doseIds": [
+            229,
+            167,
+            165,
+            163,
+            2442
+        ],
+        "name": "Super defence",
+        "affectedLevelIds": [
+            1
+        ],
+        "baseBoosts": [
+            5
+        ],
+        "multiplyFactors": [
+            0.15
+        ]
+    },
+    "Attack potion": {
+        "doseIds": [
+            229,
+            125,
+            123,
+            121,
+            2428
+        ],
+        "name": "Attack potion",
+        "affectedLevelIds": [
+            0
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.1
+        ]
+    },
+    "Strength potion": {
+        "doseIds": [
+            229,
+            119,
+            117,
+            116,
+            113
+        ],
+        "name": "Strength potion",
+        "affectedLevelIds": [
+            2
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.1
+        ]
+    },
+    "Defence potion": {
+        "doseIds": [
+            229,
+            137,
+            135,
+            133,
+            2432
+        ],
+        "name": "Defence potion",
+        "affectedLevelIds": [
+            1
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.1
+        ]
+    },
+    "Fishing potion": {
+        "doseIds": [
+            229,
+            155,
+            153,
+            151,
+            2438
+        ],
+        "name": "Fishing potion",
+        "affectedLevelIds": [
+            10
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Ranging potion": {
+        "doseIds": [
+            229,
+            173,
+            171,
+            169,
+            2444
+        ],
+        "name": "Ranging potion",
+        "affectedLevelIds": [
+            4
+        ],
+        "baseBoosts": [
+            4
+        ],
+        "multiplyFactors": [
+            0.1
+        ]
+    },
+    "Antipoison": {
+        "doseIds": [
+            229,
+            179,
+            177,
+            175,
+            2434
+        ],
+        "name": "Antipoison"
+    },
+    "Super antipoison": {
+        "doseIds": [
+            229,
+            185,
+            183,
+            181,
+            2448
+        ],
+        "name": "Super antipoison"
+    },
+    "Zamorak brew": {
+        "doseIds": [
+            229,
+            193,
+            191,
+            189,
+            2450
+        ],
+        "name": "Zamorak brew",
+        "affectedLevelIds": [
+            0,
+            1,
+            2,
+            3,
+            5
+        ],
+        "baseBoosts": [
+            2,
+            -2,
+            2,
+            -2,
+            9
+        ],
+        "multiplyFactors": [
+            0.2,
+            -0.1,
+            0.12,
+            -0.1,
+            0.0
+        ]
+    },
+    "Antifire": {
+        "doseIds": [
+            229,
+            2458,
+            2456,
+            2454,
+            2452
+        ],
+        "name": "Antifire"
+    },
+    "Energy potion": {
+        "doseIds": [
+            229,
+            3014,
+            3012,
+            3010,
+            3008
+        ],
+        "name": "Energy potion"
+    },
+    "Super energy": {
+        "doseIds": [
+            229,
+            3022,
+            3020,
+            3018,
+            3016
+        ],
+        "name": "Super energy"
+    },
+    "Agility potion": {
+        "doseIds": [
+            229,
+            3038,
+            3036,
+            3034,
+            3032
+        ],
+        "name": "Agility potion",
+        "affectedLevelIds": [
+            16
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Magic potion": {
+        "doseIds": [
+            229,
+            3046,
+            3044,
+            3042,
+            3040
+        ],
+        "name": "Magic potion",
+        "affectedLevelIds": [
+            6
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Saradomin brew": {
+        "doseIds": [
+            229,
+            6691,
+            6689,
+            6687,
+            6685
+        ],
+        "name": "Saradomin brew",
+        "affectedLevelIds": [
+            0,
+            1,
+            2,
+            4,
+            6
+        ],
+        "baseBoosts": [
+            0,
+            0,
+            0,
+            0,
+            0
+        ],
+        "multiplyFactors": [
+            -0.1,
+            0.25,
+            -0.1,
+            -0.1,
+            -0.1
+        ],
+        "hpMultiplier": "0.15"
+    },
+    "Super restore": {
+        "doseIds": [
+            229,
+            3030,
+            3028,
+            3026,
+            3024
+        ],
+        "name": "Super restore",
+        "affectedLevelIds": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+        ],
+        "baseBoosts": [
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8,
+            8
+        ],
+        "multiplyFactors": [
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25,
+            0.25
+        ]
+    },
+    "Combat potion": {
+        "doseIds": [
+            229,
+            9745,
+            9743,
+            9741,
+            9739
+        ],
+        "name": "Combat potion",
+        "affectedLevelIds": [
+            0,
+            2
+        ],
+        "baseBoosts": [
+            3,
+            3
+        ],
+        "multiplyFactors": [
+            0.1,
+            0.1
+        ]
+    },
+    "Hunter potion": {
+        "doseIds": [
+            229,
+            10004,
+            10002,
+            10000,
+            9998
+        ],
+        "name": "Hunter potion",
+        "affectedLevelIds": [
+            22
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Summoning potion": {
+        "doseIds": [
+            229,
+            12146,
+            12144,
+            12142,
+            12140
+        ],
+        "name": "Summoning potion",
+        "affectedLevelIds": [
+            23
+        ],
+        "baseBoosts": [
+            7
+        ],
+        "multiplyFactors": [
+            0.25
+        ]
+    },
+    "Crafting potion": {
+        "doseIds": [
+            229,
+            14844,
+            14842,
+            14840,
+            14838
+        ],
+        "name": "Crafting potion",
+        "affectedLevelIds": [
+            12
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Fletching potion": {
+        "doseIds": [
+            229,
+            14852,
+            14850,
+            14848,
+            14846
+        ],
+        "name": "Fletching potion",
+        "affectedLevelIds": [
+            9
+        ],
+        "baseBoosts": [
+            3
+        ],
+        "multiplyFactors": [
+            0.0
+        ]
+    },
+    "Recover special": {
+        "doseIds": [
+            229,
+            15303,
+            15302,
+            15301,
+            15300
+        ],
+        "name": "Recover special"
+    },
+    "Super antifire": {
+        "doseIds": [
+            229,
+            15307,
+            15306,
+            15305,
+            15304
+        ],
+        "name": "Super antifire"
+    }
+}
