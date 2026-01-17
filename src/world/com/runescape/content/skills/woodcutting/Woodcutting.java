@@ -20,8 +20,7 @@ import com.runescape.logic.utility.Utility;
 import com.runescape.logic.utility.rsconfigs.RSJingle;
 
 public class Woodcutting implements ActionHandler, ObjectOptionHandler {
-
-    private static final int[] BIRD_NESTS = {5070, 5071, 5072, 5073, 5074, 5075, 7413, 11966};
+	
     private static final Random RANDOM = new Random();
 
     public static class WoodcuttingTick extends HarvestingTick {
@@ -103,13 +102,10 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
                     player.sendMessage("You get some " + reward.name.toLowerCase());
                 }
             }
-            /** Bird nests **/
             if (Utility.random(256) == 1) {
-                int nest = BIRD_NESTS[RANDOM.nextInt(BIRD_NESTS.length)];
-                Static.world.getGroundItemManager().add(nest, 1, player.getLocation(), player.getProtocolName(), false);
-                player.sendMessage(tree == RSTreeType.IVY
-                        ? "<col=FF0000>A bird's nest falls out of the ivy.</col>"
-                        : "<col=FF0000>A bird's nest falls out of the tree.</col>");
+            	BirdNest nest = BirdNest.values()[RANDOM.nextInt(BirdNest.values().length)];
+                Static.world.getGroundItemManager().add(nest.getId(), 1, player.getLocation(), player.getProtocolName(), false);
+                player.sendMessage(tree == RSTreeType.IVY ? "<col=FF0000>A bird's nest falls out of the ivy.</col>" : "<col=FF0000>A bird's nest falls out of the tree.</col>");
                 player.playJingle(RSJingle.BIRD_NEST_FALLEN, 0);
             }
             /**

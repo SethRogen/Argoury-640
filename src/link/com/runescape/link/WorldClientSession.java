@@ -28,6 +28,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WorldClientSession implements Runnable, Poolable {
+	
     private static Logger logger = Logging.log();
 
     public static final int[] FRAME_LENGTHS = new int[256];
