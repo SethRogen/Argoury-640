@@ -102,7 +102,7 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
                     player.sendMessage("You get some " + reward.name.toLowerCase());
                 }
             }
-            if (Utility.random(256) == 1) {
+            if (player.isMember() && Utility.random(256) == 1) { //This is member only feature
             	BirdNest nest = BirdNest.values()[RANDOM.nextInt(BirdNest.values().length)];
                 Static.world.getGroundItemManager().add(nest.getId(), 1, player.getLocation(), player.getProtocolName(), false);
                 player.sendMessage(tree == RSTreeType.IVY ? "<col=FF0000>A bird's nest falls out of the ivy.</col>" : "<col=FF0000>A bird's nest falls out of the tree.</col>");
