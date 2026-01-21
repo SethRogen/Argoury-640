@@ -50,4 +50,10 @@ public final class RSInterpolator {
         return low + (high - low) * (skill / maxLevel);
     }
     
+    public static int interpolate(int low, int high, int level) {
+        double numerator = low * (99 - level) / 98.0;
+        double denominator = Math.floor(high * (level - 1) / 98.0);
+        return (int) Math.floor(numerator + denominator + 1);
+    }
+    
 }

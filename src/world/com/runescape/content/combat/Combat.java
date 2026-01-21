@@ -8,6 +8,7 @@ import org.apache.log4j.Logger;
 
 import com.runescape.Static;
 import com.runescape.Constants.Equipment;
+import com.runescape.content.activites.Controller;
 import com.runescape.content.combat.Magic.SpellBook;
 import com.runescape.content.combat.actions.NPCCombatAction;
 import com.runescape.content.combat.actions.PlayerMagicAction;
@@ -580,6 +581,12 @@ public class Combat implements ButtonHandler {
 	 * @return
 	 */
 	public boolean playerCanAttack(Entity victim) {
+		if (entity instanceof Player) {
+		    Player p = (Player) entity;
+		    if (p.activeController != null && !p.activeController.canAttack((Player) victim, true)) {
+		        return false;
+		    }
+		}
 		// TODO multi-zones
 		if (victim.isInMulti()) {
 			return true;
@@ -750,6 +757,15 @@ public class Combat implements ButtonHandler {
 	}
 	
 	public void uponDeath1() {
+	    if (entity instanceof Player) {
+	        Player player = (Player) entity;
+	        if (player.activeController != null) {
+	            if (player.activeController.handleDeath()) {
+	                // Controller handled the death, skip default logic
+	                return;
+	            }
+	        }
+	    }
 		entity.registerTick(new Tick("IOD", 4) {
 			@Override
 			public boolean execute() {

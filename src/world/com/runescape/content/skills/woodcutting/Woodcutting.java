@@ -89,18 +89,17 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
                 player.getLevels().addXP(Levels.WOODCUTTING, tree.getXp());
                 player.sendMessage("You successfully chop away some ivy.");
             } else if (tree.getLogId() != -1) {
-                boolean success = true;
-                if (tree.getHighChance() > 0) {
-                    int low = (int) (tree.getLowChance() * axe.getRatio());
-                    int high = (int) (tree.getHighChance() * axe.getRatio());
-                    success = RSInterpolator.rollSuccess(player.getLevels().getLevel(Levels.WOODCUTTING), low, high);
-                }
-                if (success) {
-                    player.getInventory().add(new PossesedItem(tree.getLogId(), 1));
-                    player.getLevels().addXP(Levels.WOODCUTTING, tree.getXp());
-                    ItemDefinition reward = ItemDefinition.forId(tree.getLogId());
-                    player.sendMessage("You get some " + reward.name.toLowerCase());
-                }
+            	boolean success = RSInterpolator.interpolate(
+            		    (int) (tree.getLowChance() * axe.getRatio()),
+            		    (int) (tree.getHighChance() * axe.getRatio()),
+            		    player.getLevels().getCurrentLevel(Levels.WOODCUTTING)
+            		) > RANDOM.nextInt(255);
+            		if (success) { 
+            			 player.getInventory().add(new PossesedItem(tree.getLogId(), 1));
+                         player.getLevels().addXP(Levels.WOODCUTTING, tree.getXp());
+                         ItemDefinition reward = ItemDefinition.forId(tree.getLogId());
+                         player.sendMessage("You get some " + reward.name.toLowerCase());
+            		}
             }
             if (player.isMember() && Utility.random(256) == 1) { //This is member only feature
             	BirdNest nest = BirdNest.values()[RANDOM.nextInt(BirdNest.values().length)];
@@ -111,10 +110,10 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
             /**
              * TODO: Redo Depletion where Jagex used life min / max per tree so we need to add this and make it global
              */
-            if (tree.getDepleteChance() == 0 || Utility.random(tree.getDepleteChance()) == 0) {
-                treeDepleted = true;
-                expire();
-                stop();
+            if (tree.getDepleteChance() == 0 || Utility.random(1, tree.getDepleteChance()) == 1) {
+            	player.doAnimation(-1);
+            	stop();
+            	handleTreeDeplete(obj, tree);
             }
         }
 
@@ -126,7 +125,7 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
 
         @Override
         public void expire() {
-            handleTreeDeplete(obj, tree);
+            //handleTreeDeplete(obj, tree);
         }
 
         @Override
@@ -170,6 +169,7 @@ public class Woodcutting implements ActionHandler, ObjectOptionHandler {
             final int origTreeDir = obj.getDirection();
             final Tile origTreeLoc = obj.getLocation();
             int stumpId = tree.getStumpIds();
+            player.playJingle(tree == RSTreeType.IVY ? RSJingle.TREE_DESTROY /** add ivy sound once found **/: RSJingle.TREE_DESTROY, 0);
             if (stumpId != -1) {
                 Static.world.getObjectManager().add(stumpId, origTreeLoc, origTreeType, origTreeDir);
             }

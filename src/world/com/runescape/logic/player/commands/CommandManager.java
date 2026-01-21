@@ -7,6 +7,7 @@ import com.runescape.content.combat.Combat;
 import com.runescape.logic.map.PathProcessor;
 import com.runescape.logic.player.Player;
 import com.runescape.logic.player.commands.impl.AnimationCommand;
+import com.runescape.logic.player.commands.impl.BankCommand;
 import com.runescape.logic.player.commands.impl.GraphicCommand;
 import com.runescape.logic.player.commands.impl.InterfaceCommand;
 import com.runescape.logic.player.commands.impl.ItemCommand;
@@ -46,6 +47,7 @@ public class CommandManager {
         register(new SendVarCommand());
         register(new MasterSkillerCommand());
         register(new SendSoundCommand());
+        register(new BankCommand());
     }
     
     private static void register(CommandHandler cmd) {

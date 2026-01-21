@@ -15,6 +15,7 @@ public class RSJingle {
 	//Misc
 	public static final int BIRD_NEST_FALLEN = 1997;
 	public static final int RANDOM_EVENT = 1930;
+	public static final int TREE_DESTROY = 2734;
 	//Teleport
 	public static final int TELEPORT_TABS = 965;
 	public static final int TELEPORT = 200;

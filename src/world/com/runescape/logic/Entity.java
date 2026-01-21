@@ -258,6 +258,9 @@ public abstract class Entity extends Locatable implements Runnable {
 	}
 
 	public final void preProcess() {
+	    if (this instanceof Player) {
+	        ((Player) this).processControllers();
+	    }
 		processTicks();
 		subPreProcess();
 		processHP();

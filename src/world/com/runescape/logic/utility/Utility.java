@@ -1,8 +1,11 @@
 package com.runescape.logic.utility;
 
+import java.util.Random;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Utility {
+	
+	private static final Random RANDOM = new Random();
 	
 	public static char[] aCharArray6385 = { '\u20ac', '\0', '\u201a', '\u0192',
 			'\u201e', '\u2026', '\u2020', '\u2021', '\u02c6', '\u2030',
@@ -53,5 +56,9 @@ public class Utility {
     public static double random() {
         return ThreadLocalRandom.current().nextDouble();
     }
+    
+	public static int random(int start, int endInclusive) {
+	    return RANDOM.nextInt(endInclusive - start + 1) + start;
+	}
 
 }

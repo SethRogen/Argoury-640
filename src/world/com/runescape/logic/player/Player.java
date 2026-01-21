@@ -10,6 +10,7 @@ import java.util.Queue;
 import org.apache.log4j.Logger;
 
 import com.runescape.Static;
+import com.runescape.content.activites.Controller;
 import com.runescape.content.chardesign.CharacterDesign;
 import com.runescape.content.clanchat.Clan;
 import com.runescape.content.clanchat.ClanManager;
@@ -294,6 +295,8 @@ public class Player extends Entity implements PlayerType, Destroyable {
             equipment.addListener(AppearanceListener.INSTANCE);
 
             bank = new BankContainer(this);
+            
+            setControllers();
 
             setPathProcessor(new PlayerPathProcessor(this));
 
@@ -410,6 +413,13 @@ public class Player extends Entity implements PlayerType, Destroyable {
         if (Static.isGame() && getCombat() != null) {
             getCombat().stop(true);
         }
+        if(activeController != null) {
+            /**
+             * Leave active controller
+             */
+            activeController.exited(true);
+            activeController = null;
+        }
         final Player thisPlayer = this;
         Static.engine.dispatchToLinkWorker(new Runnable() {
             @Override
@@ -495,7 +505,50 @@ public class Player extends Entity implements PlayerType, Destroyable {
         itemSelection = selection;
         selection.send(this);
     }
+    
+    
+    /**
+     * Activities Controller
+     * @return
+     */
+    public transient Controller activeController;
+    private transient Controller[] controllers;
+    
+    public void processControllers() {
+        /**
+         * Active
+         */
+        if(activeController != null) {
+            if(!activeController.checkActive()) {
+                activeController.exited(false);
+                activeController = null;
+            }
+            return;
+        }
+        /**
+         * Not active
+         */
+        for(Controller controller : controllers) {
+            if(controller.checkActive()) {
+                activeController = controller;
+                activeController.entered();
+                return;
+            }
+        }
+    }
+    private void setControllers() {
+    	controllers = new Controller[] {
+    			
+    	};
+    }
+    /**
+     * List Of Activities 
+     * @return
+     */
 
+    
+    
+    
     public IoSession getSession() {
         return session;
     }

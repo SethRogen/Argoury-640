@@ -12,11 +12,12 @@ public abstract class Controller {
     }
 
     public boolean isActive() {
-        return false; //player.activeController == this;
+        return player.activeController == this;
     }
 
     /**
      * Abstract
+     * TODO: Add more checks for more in depth activites / minigames
      */
 
     public abstract void entered();
